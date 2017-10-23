@@ -12,14 +12,14 @@ public class Home extends AppCompatActivity {
     ViewPagerAdapter adapter ;
     ViewPager pager;
     SlidingTabLayout tabs;
-    int n=4  ; // No of sliding Tab
+    int n=3  ; // No of sliding Tab
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-        CharSequence Titles[] = {"Forum", "Events" , "EnLearn", "Store"};
+        CharSequence Titles[] = {"Events" , "EnLearn","Forum"};
 
         pager = (ViewPager)findViewById(R.id.pager);
 

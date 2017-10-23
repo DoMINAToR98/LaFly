@@ -31,20 +31,20 @@ public class ViewPagerAdapter extends FragmentStatePagerAdapter {
     public Fragment getItem(int position) {
 
 
-        if(position==0) {
-            Info info = new Info() ;
-            info.setC(c);
-            return  info ;
-        }
+//        if(position==0) {
+//            Info info = new Info() ;
+//            info.setC(c);
+//            return  info ;
+//        }
 
 
-        else if(position==1) {
+         if(position==0) {
             EnLearn enLearn = new EnLearn() ;
             enLearn.setC(c);
             return  enLearn  ;
         }
 
-      else   if(position==2) {
+      else   if(position==1) {
             Forum forum = new Forum() ;
             forum.setC(c);
             return  forum  ;
